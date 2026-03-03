@@ -127,8 +127,8 @@ export default function Quiz() {
   const [answers, setAnswers] = useState([])
   const [resultId, setResultId] = useState(null)
 
-  const isResult = step >= QUESTIONS.length
-  const q = QUESTIONS[step] || null
+  const isResult = resultId !== null
+  const q = !isResult ? QUESTIONS[step] : null
 
   function handleOption(value) {
     const newAnswers = [...answers.slice(0, step), value]
@@ -138,7 +138,6 @@ export default function Quiz() {
       setStep(step + 1)
     } else {
       setResultId(computeSeason(newAnswers))
-      setStep(QUESTIONS.length)
     }
   }
 
