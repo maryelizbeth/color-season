@@ -2,3 +2,9 @@ name = 'color-season-app'
 post_import = ''
 env = []
 include = []
+
+[build]
+onbuild = [
+  "npm run build",
+  "npm prune --production"
+]
