@@ -79,6 +79,10 @@ export default function Home() {
         <section className="hero">
           <p className="hero-eyebrow">Personal Colour Analysis</p>
           <h1 className="hero-title">Discover Your<br />Colour Season</h1>
+          <p className="hero-quiz-cta">
+            Don&rsquo;t know your season?{' '}
+            <Link to="/quiz" className="inline-guide-link">Click here to find out</Link>
+          </p>
           <div className="hero-rule" />
           <p className="hero-sub">
             Select your season to reveal a palette composed for you.
@@ -161,10 +165,7 @@ export default function Home() {
               ))}
             </div>
             <p className="empty-hint">
-              Don&rsquo;t know your season?{' '}
-              <Link to="/quiz" className="inline-guide-link">Click here to find out</Link>
-              <span className="empty-hint-divider"> · </span>
-              <Link to="/guide" className="inline-guide-link">Read the guide</Link>
+              <Link to="/guide" className="inline-guide-link">Read the Season Guide</Link>
             </p>
           </section>
         )}

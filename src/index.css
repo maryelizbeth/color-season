@@ -156,6 +156,13 @@ strong { font-weight: 500; }
   font-weight: 300;
 }
 
+.hero-quiz-cta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+}
+
 /* Selector */
 .selector-section {
   display: flex;
