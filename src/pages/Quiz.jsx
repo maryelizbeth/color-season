@@ -19,10 +19,10 @@ const PROFILES = {
   'soft-autumn':   { ut:  1,  depth: 2,   clarity: -2,  contrast: 1   },
   'true-autumn':   { ut:  2,  depth: 2,   clarity: -2,  contrast: 2   },
   'deep-autumn':   { ut:  2,  depth: 3,   clarity: -1,  contrast: 2.5 },
-  'warm-autumn':   { ut:  2,  depth: 2.5, clarity: -2,  contrast: 2   },
+  'dark-autumn':   { ut:  2,  depth: 2.5, clarity: -2,  contrast: 2   },
   'true-winter':   { ut: -2,  depth: 2,   clarity:  2,  contrast: 3   },
   'bright-winter': { ut:  0,  depth: 2,   clarity:  3,  contrast: 3   },
-  'deep-winter':   { ut: -1,  depth: 3,   clarity:  1,  contrast: 3   },
+  'dark-winter':   { ut: -1,  depth: 3,   clarity:  1,  contrast: 3   },
   'cool-winter':   { ut: -2,  depth: 2,   clarity:  2,  contrast: 2.5 },
 }
 
