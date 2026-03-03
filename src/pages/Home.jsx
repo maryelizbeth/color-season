@@ -69,6 +69,7 @@ export default function Home() {
         <div className="header-inner">
           <span className="site-logo">Color Season</span>
           <nav className="site-nav">
+            <Link to="/quiz" className="nav-link">Take the Quiz</Link>
             <Link to="/guide" className="nav-link">Season Guide</Link>
           </nav>
         </div>
@@ -160,7 +161,9 @@ export default function Home() {
               ))}
             </div>
             <p className="empty-hint">
-              Not sure which season you are?{' '}
+              Don&rsquo;t know your season?{' '}
+              <Link to="/quiz" className="inline-guide-link">Click here to find out</Link>
+              <span className="empty-hint-divider"> · </span>
               <Link to="/guide" className="inline-guide-link">Read the guide</Link>
             </p>
           </section>
