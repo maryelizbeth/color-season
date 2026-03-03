@@ -331,6 +331,15 @@ strong { font-weight: 500; }
   margin-right: auto;
 }
 
+.intro-palette-label {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--text-muted);
+}
+
 .cycle-btn {
   font-size: 0.68rem;
   font-weight: 400;

@@ -21,6 +21,14 @@ function copyToClipboard(text) {
   navigator.clipboard.writeText(text).catch(() => {})
 }
 
+const INTRO_PALETTE = [
+  { hex: '#F5EDE0', name: 'Warm Linen' },
+  { hex: '#E8A07A', name: 'Peachy Coral' },
+  { hex: '#A8C0C8', name: 'Powder Blue' },
+  { hex: '#9C6840', name: 'Warm Spice' },
+  { hex: '#445E78', name: 'Deep Navy' },
+]
+
 export default function Home() {
   const [searchParams] = useSearchParams()
   const [selectedId, setSelectedId] = useState(searchParams.get('season') || '')
@@ -152,21 +160,33 @@ export default function Home() {
             </div>
           </section>
         ) : (
-          <section className="empty-state">
-            <div className="empty-swatches">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="swatch-col">
-                  <div className="swatch swatch--empty" />
-                  <div className="swatch-meta swatch-meta--empty">
-                    <span className="swatch-name-ph" />
-                    <span className="swatch-hex-ph" />
+          <section className="palette-section">
+            <div className="swatches">
+              {INTRO_PALETTE.map((color) => (
+                <div key={color.hex} className="swatch-col">
+                  <button
+                    className="swatch"
+                    style={{ backgroundColor: color.hex }}
+                    onClick={() => handleCopy(color.hex)}
+                    aria-label={`Copy ${color.name} — ${color.hex}`}
+                  />
+                  <div className="swatch-meta">
+                    <span className="swatch-name">{color.name}</span>
+                    <span
+                      className={`swatch-hex${copiedHex === color.hex ? ' swatch-hex--copied' : ''}`}
+                    >
+                      {copiedHex === color.hex ? 'Copied' : color.hex.toUpperCase()}
+                    </span>
                   </div>
                 </div>
               ))}
             </div>
-            <p className="empty-hint">
-              <Link to="/guide" className="inline-guide-link">Read the Season Guide</Link>
-            </p>
+            <div className="palette-footer">
+              <span className="palette-counter intro-palette-label">A taste of all seasons</span>
+              <Link to="/guide" className="guide-link">
+                Season Guide &nbsp;&#8599;
+              </Link>
+            </div>
           </section>
         )}
       </main>
