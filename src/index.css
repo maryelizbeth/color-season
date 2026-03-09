@@ -530,25 +530,20 @@ strong { font-weight: 500; }
 
 .season-card:hover { box-shadow: 0 8px 48px rgba(0,0,0,0.06); }
 
-/* Left column — color chips + link */
+/* Left column — color squares + link */
 .season-card-left {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--border);
+  overflow: hidden;
 }
 
 .preview-swatches {
-  display: flex;
-  flex: 1;
-  min-height: 160px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.preview-swatch {
-  flex: 1;
-  transition: flex 0.4s var(--ease-out);
-}
-
-.preview-swatch:hover { flex: 1.7; }
+.preview-swatch { aspect-ratio: 1; }
 
 .try-season-link {
   display: block;
@@ -919,14 +914,9 @@ strong { font-weight: 500; }
   .how-to-steps { grid-template-columns: 1fr; }
   .how-to-step  { padding: 24px 20px; }
 
-  .season-card {
-    grid-template-columns: 1fr;
-  }
-
+  .season-card { grid-template-columns: 1fr; }
   .season-card-left { border-right: none; border-bottom: 1px solid var(--border); }
-
   .preview-swatches { min-height: 120px; }
-
   .season-card-right { padding: 24px 20px; }
 }
 

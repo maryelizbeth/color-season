@@ -45,11 +45,11 @@ export const seasons = [
       ],
       // Warm lilac & orchid
       [
-        { hex: '#F8E4F8', name: 'Lilac Mist' },
-        { hex: '#EDD0F0', name: 'Warm Wisteria' },
-        { hex: '#E8BCEC', name: 'Soft Orchid' },
-        { hex: '#F4CCF4', name: 'Warm Lavender' },
-        { hex: '#FAE8F8', name: 'Pink Tulle' },
+        { hex: '#FFF0FF', name: 'Lilac Mist' },
+        { hex: '#E8C0F0', name: 'Warm Wisteria' },
+        { hex: '#C890D8', name: 'Soft Orchid' },
+        { hex: '#A868C0', name: 'Dusty Violet' },
+        { hex: '#F4DCF8', name: 'Pink Tulle' },
       ],
     ],
   },
@@ -90,19 +90,19 @@ export const seasons = [
       ],
       // Clear aquas & tropical sky
       [
-        { hex: '#00D0C0', name: 'Warm Turquoise' },
-        { hex: '#28DCCC', name: 'Clear Teal' },
-        { hex: '#58E0E0', name: 'Bright Aqua' },
-        { hex: '#40D8B8', name: 'Tropical Mint' },
-        { hex: '#A0F0E8', name: 'Aqua Mist' },
+        { hex: '#A8F0E0', name: 'Aqua Mist' },
+        { hex: '#50D8C0', name: 'Tropical Mint' },
+        { hex: '#00B0A8', name: 'Clear Teal' },
+        { hex: '#007A88', name: 'Deep Aqua' },
+        { hex: '#78E8D8', name: 'Bright Aqua' },
       ],
       // Warm reds & tomato
       [
-        { hex: '#FF3838', name: 'Warm Red' },
+        { hex: '#FF9060', name: 'Peach Flame' },
         { hex: '#FF4820', name: 'Vivid Coral Red' },
-        { hex: '#FF5838', name: 'Tomato' },
-        { hex: '#E83820', name: 'Warm Scarlet' },
-        { hex: '#FF7040', name: 'Orange Flame' },
+        { hex: '#E81808', name: 'Warm Scarlet' },
+        { hex: '#FF2020', name: 'Vivid Red' },
+        { hex: '#CC1008', name: 'Deep Crimson' },
       ],
     ],
   },
@@ -196,19 +196,19 @@ export const seasons = [
       ],
       // Warm caramels & bronze
       [
-        { hex: '#C8943C', name: 'Warm Caramel' },
-        { hex: '#B8803C', name: 'Tawny' },
+        { hex: '#F0C878', name: 'Light Honey' },
         { hex: '#D4A040', name: 'Warm Topaz' },
-        { hex: '#C8B060', name: 'Warm Khaki' },
-        { hex: '#B89050', name: 'Bronze' },
+        { hex: '#A87030', name: 'Tawny' },
+        { hex: '#7B4E18', name: 'Walnut Brown' },
+        { hex: '#E8B860', name: 'Golden Caramel' },
       ],
       // Warm chartreuse & golden greens
       [
-        { hex: '#A8B820', name: 'Yellow Chartreuse' },
-        { hex: '#98A820', name: 'Warm Olive Green' },
-        { hex: '#B8B830', name: 'Khaki Gold' },
-        { hex: '#809020', name: 'Warm Fern Green' },
-        { hex: '#C0C040', name: 'Warm Citrus' },
+        { hex: '#E0D860', name: 'Pale Citrus' },
+        { hex: '#C0C040', name: 'Warm Chartreuse' },
+        { hex: '#98A820', name: 'Yellow-Green' },
+        { hex: '#708018', name: 'Deep Olive' },
+        { hex: '#506010', name: 'Forest Olive' },
       ],
     ],
   },
@@ -251,19 +251,19 @@ export const seasons = [
       ],
       // Rose-gray & soft mauve
       [
-        { hex: '#C8B8C8', name: 'Rose Gray' },
-        { hex: '#D0B8C8', name: 'Dusty Mauve' },
-        { hex: '#C8B0C0', name: 'Muted Lilac' },
-        { hex: '#D8C0D0', name: 'Petal Gray' },
-        { hex: '#E0D0DC', name: 'Soft Rose Mist' },
+        { hex: '#F2E4EE', name: 'Pale Petal Rose' },
+        { hex: '#D8B8CC', name: 'Soft Mauve' },
+        { hex: '#B898B0', name: 'Rose Gray' },
+        { hex: '#886878', name: 'Dusty Plum' },
+        { hex: '#C8A8BC', name: 'Muted Mauve' },
       ],
       // Soft cool greens & ice mint
       [
-        { hex: '#B8D8C8', name: 'Cool Celadon' },
-        { hex: '#A8D0C8', name: 'Soft Seafoam' },
-        { hex: '#C0D8D0', name: 'Powder Seafoam' },
-        { hex: '#B0C8D8', name: 'Cool Gray-Blue' },
-        { hex: '#D0E8E0', name: 'Ice Mint' },
+        { hex: '#E8F4F0', name: 'Soft Mint' },
+        { hex: '#B0D8C0', name: 'Cool Celadon' },
+        { hex: '#78A898', name: 'Dusty Sage-Teal' },
+        { hex: '#A8C8D8', name: 'Powder Blue-Green' },
+        { hex: '#5C8A80', name: 'Muted Teal' },
       ],
     ],
   },
@@ -289,7 +289,7 @@ export const seasons = [
       // Steel blue & slate family
       [
         { hex: '#5880A0', name: 'Steel Blue' },
-        { hex: '#5870A0', name: 'Slate Blue' },
+        { hex: '#3A5888', name: 'Slate Blue' },
         { hex: '#7888C0', name: 'Cool Periwinkle' },
         { hex: '#8898B0', name: 'Dusty Blue-Gray' },
         { hex: '#A0A0B0', name: 'Silver Gray' },
@@ -297,26 +297,26 @@ export const seasons = [
       // Cool sage & herb garden
       [
         { hex: '#788870', name: 'Cool Sage' },
-        { hex: '#808870', name: 'Dusty Sage' },
+        { hex: '#B0B098', name: 'Dusty Sage' },
         { hex: '#889060', name: 'Muted Olive' },
         { hex: '#909888', name: 'Sage Gray' },
         { hex: '#708880', name: 'Muted Teal' },
       ],
       // Cool plum & dusty burgundy
       [
-        { hex: '#806080', name: 'Dusty Plum' },
-        { hex: '#906870', name: 'Muted Mauve Rose' },
+        { hex: '#C0A0B0', name: 'Dusty Rose Mauve' },
+        { hex: '#9A7080', name: 'Muted Mauve' },
         { hex: '#7A5870', name: 'Dusty Purple' },
-        { hex: '#906080', name: 'Muted Plum' },
+        { hex: '#584858', name: 'Deep Dusty Plum' },
         { hex: '#A07080', name: 'Dusty Wine' },
       ],
       // Dusty teal & cool celadon
       [
-        { hex: '#608888', name: 'Dusty Teal' },
-        { hex: '#709888', name: 'Cool Celadon' },
-        { hex: '#588090', name: 'Dusty Aqua' },
-        { hex: '#7890A0', name: 'Cool Gray-Teal' },
-        { hex: '#688898', name: 'Slate Teal' },
+        { hex: '#B0C8C0', name: 'Silver Sage' },
+        { hex: '#789898', name: 'Dusty Teal' },
+        { hex: '#5878A0', name: 'Cool Slate Blue' },
+        { hex: '#3C6870', name: 'Deep Teal' },
+        { hex: '#8898A8', name: 'Steel Sage' },
       ],
     ],
   },
@@ -365,11 +365,11 @@ export const seasons = [
       ],
       // Dusty aqua & muted teal-blue
       [
-        { hex: '#889898', name: 'Dusty Aqua' },
-        { hex: '#808EA8', name: 'Soft Slate' },
-        { hex: '#8898A0', name: 'Muted Teal' },
+        { hex: '#C8D0D8', name: 'Silver Mist' },
         { hex: '#98A8A8', name: 'Cool Sage Gray' },
-        { hex: '#A0A8B0', name: 'Silver Sage' },
+        { hex: '#687890', name: 'Dusty Slate' },
+        { hex: '#A0A8B8', name: 'Silver Sage' },
+        { hex: '#505878', name: 'Deep Dusty Indigo' },
       ],
     ],
   },
@@ -441,11 +441,11 @@ export const seasons = [
     palettes: [
       // Peachy, camel & warm blush
       [
+        { hex: '#F2C8A0', name: 'Pale Peach' },
         { hex: '#D4A890', name: 'Dusty Peach' },
-        { hex: '#C89888', name: 'Warm Blush' },
         { hex: '#C89068', name: 'Camel' },
+        { hex: '#9B6040', name: 'Warm Terracotta' },
         { hex: '#C8A880', name: 'Sandy Beige' },
-        { hex: '#C09888', name: 'Soft Rose Beige' },
       ],
       // Sage, olive & muted terracotta
       [
@@ -465,19 +465,19 @@ export const seasons = [
       ],
       // Warm gold & light mustard
       [
+        { hex: '#F0D888', name: 'Pale Gold' },
         { hex: '#D4B050', name: 'Warm Gold' },
-        { hex: '#C8A040', name: 'Dusty Amber' },
-        { hex: '#D0B070', name: 'Light Mustard' },
-        { hex: '#C8A860', name: 'Warm Brass' },
-        { hex: '#D8C080', name: 'Pale Gold' },
+        { hex: '#B08830', name: 'Deep Amber' },
+        { hex: '#7A5810', name: 'Dark Honey Brown' },
+        { hex: '#E8C870', name: 'Light Mustard' },
       ],
       // Dusty teal & muted jade
       [
+        { hex: '#A8C0B0', name: 'Pale Jade' },
         { hex: '#708A80', name: 'Dusty Teal' },
-        { hex: '#608878', name: 'Muted Jade' },
-        { hex: '#7A9088', name: 'Warm Celadon' },
-        { hex: '#709878', name: 'Warm Sage-Teal' },
+        { hex: '#507068', name: 'Muted Jade' },
         { hex: '#88A090', name: 'Soft Jade Gray' },
+        { hex: '#385848', name: 'Deep Sage-Teal' },
       ],
     ],
   },
@@ -518,19 +518,19 @@ export const seasons = [
       ],
       // Warm golds & deep amber
       [
+        { hex: '#F0C040', name: 'Light Amber' },
         { hex: '#D4901A', name: 'Warm Topaz' },
-        { hex: '#C07810', name: 'Rich Amber' },
-        { hex: '#D09820', name: 'Deep Marigold' },
-        { hex: '#B88018', name: 'Burnished Gold' },
+        { hex: '#B07010', name: 'Rich Amber' },
+        { hex: '#8B5208', name: 'Dark Amber' },
         { hex: '#D4A828', name: 'Harvest Gold' },
       ],
       // Spiced reds & terracotta
       [
-        { hex: '#B83820', name: 'Spiced Red' },
+        { hex: '#E06040', name: 'Warm Terracotta' },
         { hex: '#C04828', name: 'Deep Terracotta' },
-        { hex: '#A83018', name: 'Brick Red' },
-        { hex: '#D04828', name: 'Warm Vermilion' },
-        { hex: '#C04030', name: 'Autumn Red' },
+        { hex: '#881808', name: 'Dark Brick' },
+        { hex: '#D05030', name: 'Vermilion' },
+        { hex: '#601008', name: 'Deep Crimson-Brown' },
       ],
     ],
   },
@@ -547,11 +547,11 @@ export const seasons = [
     palettes: [
       // Oxblood, dark rust & deep gold
       [
+        { hex: '#9B2010', name: 'Deep Rust' },
         { hex: '#7B1818', name: 'Oxblood' },
-        { hex: '#8B3818', name: 'Dark Rust' },
-        { hex: '#8B2500', name: 'Deep Brick' },
-        { hex: '#8B6914', name: 'Deep Gold' },
-        { hex: '#7A5818', name: 'Warm Copper' },
+        { hex: '#4A0808', name: 'Dark Crimson' },
+        { hex: '#A87820', name: 'Antique Gold' },
+        { hex: '#6A4010', name: 'Warm Bronze' },
       ],
       // Forest, espresso & dark olive
       [
@@ -571,19 +571,19 @@ export const seasons = [
       ],
       // Dark teal & deep bronze-green
       [
+        { hex: '#508858', name: 'Forest Green' },
         { hex: '#2A5848', name: 'Dark Teal' },
-        { hex: '#304840', name: 'Deep Forest Teal' },
         { hex: '#3A5020', name: 'Bronze Green' },
-        { hex: '#2A4838', name: 'Dark Jade' },
-        { hex: '#405830', name: 'Deep Khaki Green' },
+        { hex: '#182E18', name: 'Very Dark Forest' },
+        { hex: '#406850', name: 'Deep Jade' },
       ],
       // Deep cognac & warm near-black
       [
-        { hex: '#3A1808', name: 'Dark Cognac Brown' },
+        { hex: '#9B5820', name: 'Rich Cognac' },
         { hex: '#5A2808', name: 'Deep Rust-Brown' },
-        { hex: '#1E1008', name: 'Warm Near-Black' },
-        { hex: '#4A2010', name: 'Dark Auburn Brown' },
-        { hex: '#6A3810', name: 'Rich Cognac' },
+        { hex: '#3A1808', name: 'Dark Cognac' },
+        { hex: '#1E0E08', name: 'Warm Near-Black' },
+        { hex: '#702810', name: 'Warm Mahogany' },
       ],
     ],
   },
@@ -610,33 +610,33 @@ export const seasons = [
       [
         { hex: '#334020', name: 'Dark Forest' },
         { hex: '#5E2510', name: 'Deep Sienna' },
-        { hex: '#504008', name: 'Dark Amber' },
+        { hex: '#8B5A18', name: 'Dark Amber' },
         { hex: '#201008', name: 'Deep Chocolate' },
         { hex: '#1A1010', name: 'Near Black' },
       ],
       // Cognac-red, deep moss & dark gold
       [
-        { hex: '#613020', name: 'Rich Cognac' },
+        { hex: '#7A3828', name: 'Rich Cognac' },
         { hex: '#4A1818', name: 'Dark Auburn Red' },
         { hex: '#3A4818', name: 'Deep Moss' },
-        { hex: '#4A3808', name: 'Old Dark Gold' },
+        { hex: '#5A4808', name: 'Old Dark Gold' },
         { hex: '#1E0E08', name: 'Deep Espresso' },
       ],
       // Rich warm plum & deep garnet
       [
-        { hex: '#4A1830', name: 'Deep Warm Plum' },
+        { hex: '#8B2028', name: 'Rich Garnet' },
         { hex: '#5A1818', name: 'Dark Garnet' },
-        { hex: '#7A2018', name: 'Deep Red-Brown' },
-        { hex: '#3A1028', name: 'Warm Dark Purple' },
-        { hex: '#601838', name: 'Deep Burgundy-Plum' },
+        { hex: '#4A1830', name: 'Deep Warm Plum' },
+        { hex: '#3A1028', name: 'Dark Purple-Brown' },
+        { hex: '#1A0808', name: 'Near Black' },
       ],
       // Darkest warm earth & bronze
       [
-        { hex: '#3A1808', name: 'Richest Brown' },
+        { hex: '#8B4A18', name: 'Warm Mahogany' },
         { hex: '#5A2010', name: 'Dark Burnt Sienna' },
-        { hex: '#4A3010', name: 'Dark Bronze-Brown' },
+        { hex: '#3A1808', name: 'Richest Brown' },
         { hex: '#281008', name: 'Very Dark Brown' },
-        { hex: '#6A3818', name: 'Warm Dark Copper' },
+        { hex: '#6A3010', name: 'Deep Rust Brown' },
       ],
     ],
   },
@@ -769,35 +769,35 @@ export const seasons = [
       ],
       // Navy, cool emerald & dark slate
       [
+        { hex: '#283838', name: 'Dark Slate' },
         { hex: '#0A0A50', name: 'Midnight Navy' },
         { hex: '#003828', name: 'Dark Emerald' },
-        { hex: '#141458', name: 'Deep Navy' },
-        { hex: '#283838', name: 'Dark Slate' },
         { hex: '#200048', name: 'Deep Purple-Navy' },
+        { hex: '#141458', name: 'Deep Navy' },
       ],
       // Raspberry, midnight & deep forest
       [
+        { hex: '#002820', name: 'Deep Forest' },
         { hex: '#600038', name: 'Dark Raspberry' },
+        { hex: '#181820', name: 'Near Black' },
         { hex: '#6A0040', name: 'Deep Magenta' },
         { hex: '#08082A', name: 'Deep Midnight' },
-        { hex: '#181820', name: 'Near Black' },
-        { hex: '#002820', name: 'Deep Forest' },
       ],
       // Darkest jewel blues & deep teal
       [
-        { hex: '#001560', name: 'Midnight Blue-Black' },
-        { hex: '#002840', name: 'Deep Ocean' },
+        { hex: '#001560', name: 'Midnight Blue' },
+        { hex: '#0038A0', name: 'Deep Cobalt' },
+        { hex: '#1A0038', name: 'Deep Indigo' },
         { hex: '#003030', name: 'Dark Teal-Black' },
-        { hex: '#1A0038', name: 'Deep Indigo-Black' },
-        { hex: '#000C20', name: 'Near Black Navy' },
+        { hex: '#000A18', name: 'Near Black Navy' },
       ],
       // Midnight plum & dark violet
       [
-        { hex: '#280040', name: 'Dark Plum-Black' },
         { hex: '#380028', name: 'Deep Eggplant' },
-        { hex: '#1A0020', name: 'Midnight Purple' },
+        { hex: '#100018', name: 'Midnight Purple' },
+        { hex: '#280040', name: 'Dark Plum-Black' },
+        { hex: '#7800B0', name: 'Deep Violet' },
         { hex: '#380050', name: 'Dark Violet-Plum' },
-        { hex: '#200030', name: 'Dark Aubergine' },
       ],
     ],
   },
@@ -816,17 +816,17 @@ export const seasons = [
       [
         { hex: '#FFB0C8', name: 'Icy Pink' },
         { hex: '#C0A8E8', name: 'Cool Lavender' },
-        { hex: '#E878A0', name: 'Cool Rose' },
-        { hex: '#B8B8F0', name: 'Pale Periwinkle' },
         { hex: '#F0F0F8', name: 'Frosty White' },
+        { hex: '#B8B8F0', name: 'Pale Periwinkle' },
+        { hex: '#E878A0', name: 'Cool Rose' },
       ],
       // Cool blues & periwinkle
       [
+        { hex: '#EEF0F8', name: 'Icy White' },
         { hex: '#9898E0', name: 'Periwinkle' },
+        { hex: '#8880D0', name: 'Cool Purple-Blue' },
         { hex: '#A0C0F0', name: 'Baby Blue' },
         { hex: '#C0D8F8', name: 'Ice Blue' },
-        { hex: '#8880D0', name: 'Cool Purple-Blue' },
-        { hex: '#EEF0F8', name: 'Icy White' },
       ],
       // Magenta, deep cool rose & crystal
       [
@@ -838,19 +838,19 @@ export const seasons = [
       ],
       // Icy mint & cool aqua
       [
+        { hex: '#3898C0', name: 'Deep Icy Aqua' },
+        { hex: '#6AC8D8', name: 'Clear Aqua' },
         { hex: '#B0F0F0', name: 'Icy Mint' },
-        { hex: '#A0E0F0', name: 'Frosty Aqua' },
-        { hex: '#90D0E8', name: 'Cool Sky Blue' },
-        { hex: '#C0F8F8', name: 'Arctic Aqua' },
-        { hex: '#E8F8FF', name: 'Ice White' },
+        { hex: '#F0FFFF', name: 'Ice White' },
+        { hex: '#90C8E0', name: 'Cool Sky Blue' },
       ],
       // Deep cool purple & frosty violet
       [
+        { hex: '#4040A0', name: 'Deep Cool Blue' },
+        { hex: '#F0F0FF', name: 'Frosty Ice' },
         { hex: '#5050B0', name: 'Deep Periwinkle' },
         { hex: '#7060C0', name: 'Deep Lavender' },
-        { hex: '#4040A0', name: 'Deep Cool Blue' },
         { hex: '#8878D8', name: 'Clear Violet' },
-        { hex: '#F0F0FF', name: 'Frosty Ice' },
       ],
     ],
   },

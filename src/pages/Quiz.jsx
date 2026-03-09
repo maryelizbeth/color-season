@@ -29,7 +29,7 @@ const PROFILES = {
 const QUESTIONS = [
   {
     id: 'veins',
-    question: 'Look at the veins on your inner wrist in natural light. What colour do they appear?',
+    question: 'Look at the veins on your inner wrist in natural light. What color do they appear?',
     options: [
       { label: 'Blue or purple',      sub: 'Distinctly cool-toned',    ut: -2 },
       { label: 'Blue-green or teal',  sub: 'A blend of warm and cool',  ut:  0 },
@@ -59,7 +59,7 @@ const QUESTIONS = [
   },
   {
     id: 'depth',
-    question: 'How would you describe the overall depth of your natural colouring?',
+    question: 'How would you describe the overall depth of your natural coloring?',
     sub: 'Think about your skin, hair, and eyes together.',
     options: [
       { label: 'Very light',     sub: 'Fair skin, light or golden hair, light eyes',         depth: 1   },
@@ -70,10 +70,10 @@ const QUESTIONS = [
   },
   {
     id: 'clarity',
-    question: 'Which types of colour feel most alive and harmonious on you?',
+    question: 'Which types of color feel most alive and harmonious on you?',
     options: [
-      { label: 'Clear and vivid',      sub: 'Bright, saturated colours energise me',            clarity:  2 },
-      { label: 'Muted and earthy',     sub: 'Dusty, toned-down colours feel most natural',      clarity: -2 },
+      { label: 'Clear and vivid',      sub: 'Bright, saturated colors energise me',            clarity:  2 },
+      { label: 'Muted and earthy',     sub: 'Dusty, toned-down colors feel most natural',      clarity: -2 },
       { label: 'Soft and gentle',      sub: 'Slightly greyed or blended tones suit me best',    clarity: -1 },
       { label: 'Intense and jewel-toned', sub: 'Deep, rich, highly saturated hues look best',  clarity:  3 },
     ],
@@ -205,7 +205,7 @@ export default function Quiz() {
           </div>
         ) : (
           <div className="quiz-result">
-            <p className="quiz-result-eyebrow">Your colour season is</p>
+            <p className="quiz-result-eyebrow">Your color season is</p>
             <h2 className="quiz-result-name">{season.name}</h2>
             <p className="quiz-result-tagline">{season.tagline}</p>
 
@@ -242,7 +242,7 @@ export default function Quiz() {
 
       <footer className="site-footer">
         <div className="footer-rule" />
-        <p>Color Season &nbsp;·&nbsp; Personal Colour Analysis</p>
+        <p>Color Season &nbsp;·&nbsp; Personal Color Analysis</p>
       </footer>
     </div>
   )

@@ -85,8 +85,8 @@ export default function Home() {
 
       <main className="home-main">
         <section className="hero">
-          <p className="hero-eyebrow">Personal Colour Analysis</p>
-          <h1 className="hero-title">Discover Your<br />Colour Season</h1>
+          <p className="hero-eyebrow">Personal Color Analysis</p>
+          <h1 className="hero-title">Discover Your<br />Color Season</h1>
           <p className="hero-quiz-cta">
             Don&rsquo;t know your season?{' '}
             <Link to="/quiz" className="inline-guide-link">Click here to find out</Link>
@@ -104,7 +104,7 @@ export default function Home() {
               value={selectedId}
               onChange={handleSeasonChange}
             >
-              <option value="" disabled>Choose your colour season</option>
+              <option value="" disabled>Choose your color season</option>
               {Object.entries(grouped).map(([group, list]) => (
                 <optgroup key={group} label={seasonGroups[group].label}>
                   {list.map((s) => (
@@ -193,7 +193,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="footer-rule" />
-        <p>Color Season &nbsp;·&nbsp; Personal Colour Analysis</p>
+        <p>Color Season &nbsp;·&nbsp; Personal Color Analysis</p>
       </footer>
     </div>
   )

@@ -62,14 +62,14 @@ export default function SeasonGuide() {
       <main className="guide-main">
         <section className="guide-hero">
           <p className="hero-eyebrow">Reference</p>
-          <h1 className="guide-title">The Colour<br />Season Guide</h1>
+          <h1 className="guide-title">The Color<br />Season Guide</h1>
           <div className="hero-rule" />
           <p className="guide-intro">
-            Personal colour analysis divides human colouring into 16 distinct seasons based on
+            Personal color analysis divides human coloring into 16 distinct seasons based on
             three qualities: <em>undertone</em> (warm vs. cool), <em>value</em>{' '}
             (light vs. dark), and <em>chroma</em> (clear vs. muted).
-            Understanding your season helps you select colours that harmonise with your natural
-            colouring — making your complexion glow and your eyes luminous.
+            Understanding your season helps you select colors that harmonise with your natural
+            coloring — making your complexion glow and your eyes luminous.
           </p>
         </section>
 
@@ -90,7 +90,7 @@ export default function SeasonGuide() {
               {
                 n: '03',
                 head: 'Check chroma',
-                body: 'Do vivid, saturated colours look natural and harmonious on you, or do they overwhelm? Clear seasons welcome brightness; muted seasons need softness.',
+                body: 'Do vivid, saturated colors look natural and harmonious on you, or do they overwhelm? Clear seasons welcome brightness; muted seasons need softness.',
               },
               {
                 n: '04',
@@ -116,7 +116,7 @@ export default function SeasonGuide() {
           return (
             <section key={group} className={`group-section group-section--${group}`}>
               <div className="group-header">
-                <p className="group-eyebrow">Colour Season</p>
+                <p className="group-eyebrow">Color Season</p>
                 <h2 className="group-title">{info.heading}</h2>
                 <p className="group-description">{info.description}</p>
               </div>
@@ -131,9 +131,9 @@ export default function SeasonGuide() {
                   >
                     <div className="season-card-left">
                       <div className="preview-swatches">
-                        {season.palettes[0].map((color) => (
+                        {season.palettes.flat().map((color, i) => (
                           <div
-                            key={color.hex}
+                            key={i}
                             className="preview-swatch"
                             style={{ backgroundColor: color.hex }}
                             title={`${color.name} · ${color.hex}`}
@@ -177,7 +177,7 @@ export default function SeasonGuide() {
 
       <footer className="site-footer">
         <div className="footer-rule" />
-        <p>Color Season &nbsp;·&nbsp; Personal Colour Analysis</p>
+        <p>Color Season &nbsp;·&nbsp; Personal Color Analysis</p>
       </footer>
     </div>
   )
